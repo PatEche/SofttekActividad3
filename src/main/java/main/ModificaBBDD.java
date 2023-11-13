@@ -10,7 +10,7 @@ public class ModificaBBDD {
         try {
 
             //CREO LA CONEXION
-            Connection miConexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/prueba", "root", "Java@2023");
+            Connection miConexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/prueba", "root", "");
             System.out.println("Conexion exitosa");
             System.out.println("****************");
 
